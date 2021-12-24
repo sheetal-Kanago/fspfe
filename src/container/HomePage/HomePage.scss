@@ -1,0 +1,30 @@
+.homePage{
+  display: grid;
+  grid-template-areas:
+  'header header header header'
+  'navbar body body body';
+  grid-gap: 10px;
+  // background-color: #2196F3;
+  padding: 10px;
+
+  background-color: darkslategrey;
+  color: azure;
+
+  *{
+    border: 2px solid azure;
+  }
+
+  &__header{
+    grid-area: header;
+  }
+
+  &__navbar{
+    grid-area: navbar;
+
+  }
+
+  &__body{
+    grid-area: body;
+  }
+
+}
